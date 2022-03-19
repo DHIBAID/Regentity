@@ -1,0 +1,11 @@
+|? posts = JSON.parse(postData) ?|
+|? console.log(posts) ?|
+
+<main role="main" class="container">
+  <div class="jumbotron">
+    <h1>|?= posts.title ?|</h1>
+    <small>Category: |?= posts.category ?| <br>Posted: |?= posts.date_posted ?|</small>
+    <hr>
+    <p class="lead">|?= posts.content ?|</p>
+  </div>
+</main>

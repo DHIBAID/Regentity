@@ -1,0 +1,31 @@
+.link {
+  font-size: 20px;
+  padding-left: 4%; 
+}
+
+
+.left-align-text {
+  text-align: left;
+}
+.column {
+  float: right;
+  height: 135px;
+  overflow: hidden;
+  width: calc(50% - 5vh);
+  padding: 10px;
+}
+
+.container {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.row {
+  margin-left: -66px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

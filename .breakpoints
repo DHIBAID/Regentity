@@ -1,0 +1,156 @@
+{
+  "files": {
+    "index.js": [
+      {
+        "id": "402a9ccb-c539-4101-b39a-ce26b8ed494e",
+        "line": 5,
+        "version": 2184,
+        "index": 113
+      },
+      {
+        "id": "9664c4c7-58fa-472d-9da6-bc56542210e8",
+        "line": 10,
+        "version": 2184,
+        "index": 295
+      },
+      {
+        "id": "a8af53c7-0b5b-4ea2-bd3a-36f6931b18ad",
+        "line": 18,
+        "version": 2184,
+        "index": 443
+      },
+      {
+        "id": "4d4e3c34-e887-4153-8c17-6b99a95c0531",
+        "line": 21,
+        "version": 2184,
+        "index": 543
+      },
+      {
+        "id": "37f3baac-f95c-442d-8ccb-9489b3ecd103",
+        "line": 22,
+        "version": 2184,
+        "index": 552
+      },
+      {
+        "id": "5fc93a0b-4bfb-447e-9372-3008ade436ae",
+        "line": 22,
+        "version": 2184,
+        "index": 552
+      },
+      {
+        "id": "88d61264-a20b-494d-85da-38dd04ab4000",
+        "line": 105,
+        "version": 2184,
+        "index": 3797
+      }
+    ],
+    "public/home.ejs": [
+      {
+        "id": "7bf9fea9-9eee-47f5-84d3-45a250db178f",
+        "line": 16,
+        "version": 271,
+        "index": 538
+      },
+      {
+        "id": "802d2ec7-c97b-4728-9803-8a9f4a14c9c3",
+        "line": 16,
+        "version": 271,
+        "index": 538
+      },
+      {
+        "id": "38b7e023-22a1-4030-9803-2977cf3ad63b",
+        "line": 21,
+        "version": 271,
+        "index": 692
+      }
+    ],
+    "public/home.html": [
+      {
+        "id": "e00696bf-7d4b-4d8c-9b25-7df96678fe04",
+        "line": 3,
+        "version": 26,
+        "index": 23
+      },
+      {
+        "id": "b81cfa99-c980-43e2-ad1b-457b4be02d28",
+        "line": 3,
+        "version": 26,
+        "index": 23
+      },
+      {
+        "id": "1c448009-94fd-413d-a1bd-d548d03bf53a",
+        "line": 28,
+        "version": 61,
+        "index": 1317
+      },
+      {
+        "id": "90680498-6f04-4f98-b949-f0ca0159b255",
+        "line": 29,
+        "version": 60,
+        "index": 1356
+      },
+      {
+        "id": "77d1ac45-f5dc-402f-8568-93d6384f7d02",
+        "line": 35,
+        "version": 62,
+        "index": 1470
+      },
+      {
+        "id": "ed1b0906-29e4-4b73-a50e-7a3aac65ca70",
+        "line": 40,
+        "version": 101,
+        "index": 1737
+      }
+    ],
+    "public/posts.css": [
+      {
+        "id": "c35a7e65-bfe5-4339-bab6-cb0cb013e6a2",
+        "line": 18,
+        "version": 49,
+        "index": 179
+      }
+    ],
+    "public/posts.ejs": [
+      {
+        "id": "1e686d9d-e278-413f-a3b6-dd8a1c3f350a",
+        "line": 21,
+        "version": 435,
+        "index": 697
+      },
+      {
+        "id": "82628201-d2c2-4814-aeb1-ac983daa3e96",
+        "line": 5,
+        "version": 382,
+        "index": 119
+      },
+      {
+        "id": "8859f04d-61c4-4ca3-991f-a72dae2404ac",
+        "line": 6,
+        "version": 382,
+        "index": 142
+      },
+      {
+        "id": "3de6b27f-63ea-4bdb-a44e-af6df91c2882",
+        "line": 8,
+        "version": 382,
+        "index": 215
+      }
+    ],
+    "public/templates/aboutcnt.html": [
+      {
+        "id": "a68713af-6378-4ced-b568-b7c88671d636",
+        "line": 2,
+        "version": 688,
+        "index": 6
+      }
+    ],
+    "public/templates/makepost.ejs": [
+      {
+        "id": "49eb1f5f-3706-4ac0-85b8-897d6da58c94",
+        "line": 54,
+        "version": 135,
+        "index": 3315
+      }
+    ]
+  }
+}

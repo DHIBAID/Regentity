@@ -1,0 +1,63 @@
+<link href="/templates/posts.css" rel="stylesheet">
+
+|? posts = JSON.parse(posts) ?|
+
+|? if (filter == null){ ?|
+|? if (posts.length % 2 != 0){ posts.push({"category":"New Post","title":"Make a post","content":"Click on the link to open a new post.","date_posted":"Dec 17, 2021"})} ?|
+
+|? for (i = 0; i < posts.length; i+=2){ ?|
+
+<center>
+<div class="row">
+<article class="column left media content-section">
+    <div class="media-body">
+      <div class="article-metadata">
+        <small class="text-muted">Category: |?= posts[i].category ?|&nbsp&nbsp | &nbsp&nbsp |?= posts[i].date_posted ?|</small>
+      </div>
+      <h2><a class="article-title" href="/post/|?= posts[i].title.replace(/ /g, '-')?|">|?= posts[i].title ?|</a></h2>
+      <p class="article-content">|?= posts[i].content ?|</p>
+    </div>
+</article>
+  
+<article class="column ml-3 media content-section">
+    <div class="media-body">
+      <div class="article-metadata">
+        <small class="text-muted">Category: |?= posts[i + 1].category ?| &nbsp&nbsp | &nbsp&nbsp |?= posts[i + 1].date_posted ?|</small>
+      </div>
+      <h2><a class="article-title" href="/post/|?= posts[i + 1].title.replace(/ /g, '-')?|">|?= posts[i + 1].title ?|</a></h2>
+      <p class="article-content">|?= posts[i + 1].content ?|</p>
+    </div>
+</article>
+</center>
+|? } ?|
+|? } ?|
+
+|? if(filter != null) ?|
+|? for (i = 0; i < posts.length; i+=2){ ?|
+
+|? if(filter == posts[i].category.toLowerCase()){ ?|
+|? console.log("filter accepts") ?|
+|? console.log(posts[i]) ?|
+<center>
+<div class="row">
+<article class="column left media content-section">
+    <div class="media-body">
+      <div class="article-metadata">
+        <small class="text-muted">Category: |?= posts[i].category ?|&nbsp&nbsp | &nbsp&nbsp |?= posts[i].date_posted ?|</small>
+      </div>
+      <h2><a class="article-title" href="#">|?= posts[i].title ?|</a></h2>
+      <p class="article-content">|?= posts[i].content ?|</p>
+    </div>
+</article>
+<article class="column ml-3 media content-section">
+    <div class="media-body">
+      <div class="article-metadata">
+        <small class="text-muted">Category: |?= posts[i + 1].category ?| &nbsp&nbsp | &nbsp&nbsp |?= posts[i + 1].date_posted ?|</small>
+      </div>
+      <h2><a class="article-title" href="#">|?= posts[i + 1].title ?|</a></h2>
+      <p class="article-content">|?= posts[i + 1].content ?|</p>
+    </div>
+</article>
+</center>
+|? } ?|
+|? } ?|
